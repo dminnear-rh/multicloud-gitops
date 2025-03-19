@@ -169,3 +169,11 @@ clusterGroup:
 #          operator: In
 #          values:
 #            - OpenShift
+  managedClusterGroups:
+  - name: group-one
+    helmOverrides:
+    - name: clusterGroup.isHubCluster
+      value: false
+    clusterSelector:
+      matchLabels:
+        clusterGroup: group-one
