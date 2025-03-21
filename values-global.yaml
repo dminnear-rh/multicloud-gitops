@@ -5,8 +5,8 @@ global:
     useCSV: false
     syncPolicy: Automatic
     installPlanApproval: Automatic
-    multiSourceRepoUrl: https://github.com/dminnear-rh/clustergroup-chart
-    multiSourceTargetRevision: dont-create-subscriptions-without-names
+  multiSourceRepoUrl: https://github.com/dminnear-rh/clustergroup-chart
+  multiSourceTargetRevision: dont-create-subscriptions-without-names
 main:
   clusterGroupName: hub
   multiSourceConfig:
