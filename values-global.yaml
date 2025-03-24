@@ -9,5 +9,7 @@ main:
   clusterGroupName: hub
   multiSourceConfig:
     enabled: true
+    clusterGroupChartVersion: dont-create-subscriptions-without-names
+    helmRepoUrl: https://github.com/dminnear-rh/clustergroup-chart
     clusterGroupGitRepoUrl: https://github.com/dminnear-rh/clustergroup-chart
     clusterGroupChartGitRevision: dont-create-subscriptions-without-names

@@ -1,7 +1,3 @@
-global:
-  multiSourceRepoUrl: https://github.com/dminnear-rh/clustergroup-chart
-  multiSourceTargetRevision: dont-create-subscriptions-without-names
-
 clusterGroup:
   name: hub
   isHubCluster: true
