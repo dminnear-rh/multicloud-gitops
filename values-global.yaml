@@ -9,4 +9,6 @@ main:
   clusterGroupName: hub
   multiSourceConfig:
     enabled: true
-    clusterGroupChartVersion: "0.9.*"
+    clusterGroupGitRepoUrl: https://github.com/dminnear-rh/clustergroup-chart
+    clusterGroupChartGitRevision: update-argo-values-for-telco
+
