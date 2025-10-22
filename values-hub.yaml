@@ -7,11 +7,11 @@ clusterGroup:
     - golang-external-secrets
     - config-demo
     - hello-world
-  subscriptions:
-    acm:
-      name: advanced-cluster-management
-      namespace: open-cluster-management
-      channel: release-2.14
+  subscriptions: {}
+    # acm:
+    #   name: advanced-cluster-management
+    #   namespace: open-cluster-management
+    #   channel: release-2.14
       # csv: advanced-cluster-management.v2.6.1
   argoProjects: []
     # - hub
