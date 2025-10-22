@@ -1,11 +1,11 @@
 clusterGroup:
   name: standalone
   isHubCluster: false
-  namespaces:
-    - vault
-    - golang-external-secrets
-    - config-demo
-    - hello-world
+  namespaces: []
+    # - vault
+    # - golang-external-secrets
+    # - config-demo
+    # - hello-world
   subscriptions: {}
   projects: []
     # - hub
