@@ -44,7 +44,7 @@ clusterGroup:
       name: acm
       namespace: open-cluster-management
       argoProject: hub
-      repoURL: https://github.com/dminnear-rh/acm-chart.git
+      repoURL: https://github.com/darkdoc/acm-chart.git
       path: .
       chartVersion: uninstall_poc
     vault:
