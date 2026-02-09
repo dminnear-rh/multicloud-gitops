@@ -3,3 +3,7 @@
 # You can add custom targets above or below the include line
 
 include Makefile-common
+
+.PHONY: uninstall ## Uninstalls this pattern. Run on the hub cluster.
+uninstall:
+	@$(ANSIBLE_RUN) rhvp.cluster_utils.uninstall
